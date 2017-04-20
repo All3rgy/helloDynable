@@ -2765,9 +2765,15 @@ table.alt tbody tr td {
 #header {
     padding: 5em 5em 1em 5em;
     text-align: center;
+    background-image: url("./images/header.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 0px;
+
 }
 #header h1 {
     margin: 0 0 0.25em 0;
+
 }
 #header p {
     font-size: 1.25em;
@@ -2775,6 +2781,7 @@ table.alt tbody tr td {
 }
 #header.alt {
     padding: 7em 5em 4em 5em;
+    margin: 0px;
 }
 #header.alt h1 {
     font-size: 3.25em;
@@ -2877,8 +2884,8 @@ body.is-loading #header.alt .logo {
     background-color: #ffffff;
     color: #636363;
     position: absolute;
-    width: 64em;
-    max-width: calc(100% - 4em);
+    width: 100%;
+    max-width: calc(100%);
     padding: 1em;
     background-color: #f7f7f7;
     border-top-left-radius: 0.25em;
