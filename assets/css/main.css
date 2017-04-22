@@ -1890,11 +1890,21 @@ button.special.icon:before,
 
 .splashPadding{
     padding-top:20%;
-    padding-bottom:25%;
+    padding-bottom:15%;
 }
 
 
+/*#changeColor:hover  {
+  background-color: rgba(240, 131, 117, 0.68);
+  transition: background-color 1000ms linear;
 
+}
+#changeColor.div:hover {
+  background-color: rgba(240, 131, 117, 0.68);
+  transition: background-color 1000ms linear;
+
+
+}*/
 
 
 
